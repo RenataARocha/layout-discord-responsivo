@@ -165,3 +165,13 @@ main section.column div {
 }
 
 
+/* Intercalar cores nas seções */
+main section:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+main section:nth-child(even) {
+    background-color: #F6F6F6;
+}
+
+
