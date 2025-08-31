@@ -125,3 +125,43 @@ main section.reverse {
     flex-direction: row-reverse;
 }
 
+
+main section.column {
+    flex-direction: column;
+    text-align: left;
+}
+
+
+main section.column h2 {
+    font-family: "Luckiest Guy", cursive;
+    font-size: 2.4vw;
+    font-weight: 400;
+text-align: center;
+}
+
+
+main section.column p {
+ font-size: 1.1vw;
+    line-height: 1.4;
+    text-align: center;
+}
+
+
+main section.column img {
+     margin-top: 2vw;
+     flex: 1 1 300px;
+    max-width: 70%;
+    height: auto;
+}
+
+
+main section.column div {
+    flex: 1 1 20px;
+    max-width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1vw;
+}
+
+
