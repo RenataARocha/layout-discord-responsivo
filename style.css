@@ -120,3 +120,8 @@ main section p {
     margin: 0;
 }
 
+
+main section.reverse {
+    flex-direction: row-reverse;
+}
+
