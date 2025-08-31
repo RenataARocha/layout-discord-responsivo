@@ -1,0 +1,77 @@
+body {
+    font-family: 'Noto Sans', Arial, sans-serif;
+    margin: 0;
+    background-color: #f9f9f9;
+    color: #030303;
+    line-height: 1.6;
+}
+
+
+/* Header responsivo e ajustado       */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+    padding: 5vw;
+    color: white;
+    position: relative;
+    background: url('assets/imgHeader.png') no-repeat center top;
+    background-size: contain;
+    height: auto;
+    min-height: 50vh;
+}
+
+header img {
+    display: none;
+}
+
+header h1 {
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-size: 5vw;
+    line-height: 1;
+    margin: 1vw 0;
+    max-width: 50%;
+}
+
+header p {
+    font-family: 'Noto Sans', Arial, sans-serif;
+    font-size: 1.1vw;
+    max-width: 60%;
+    margin-bottom: 2vw;
+}
+
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2vw;
+}
+
+header button {
+    background-color: white;
+    color: #23272A;
+    border: none;
+    padding: 1.4vw 3vw;
+    border-radius: 30px;
+    font-size: 1vw;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+header button:hover {
+    background-color: #e0e0e0;
+}
+
+header button:last-child {
+    background-color: #23272A;
+    color: white;
+}
+
+header button:last-child:hover {
+    background-color: #36393f;
+}
+
