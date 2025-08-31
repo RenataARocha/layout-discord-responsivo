@@ -136,20 +136,20 @@ main section.column h2 {
     font-family: "Luckiest Guy", cursive;
     font-size: 2.4vw;
     font-weight: 400;
-text-align: center;
+    text-align: center;
 }
 
 
 main section.column p {
- font-size: 1.1vw;
+    font-size: 1.1vw;
     line-height: 1.4;
     text-align: center;
 }
 
 
 main section.column img {
-     margin-top: 2vw;
-     flex: 1 1 300px;
+    margin-top: 2vw;
+    flex: 1 1 300px;
     max-width: 70%;
     height: auto;
 }
@@ -185,4 +185,152 @@ footer {
 footer img {
     max-width: 100%;
     height: auto;
+}
+
+
+/* --------- RESPONSIVIDADE --------- */
+
+/* Tablets - até 1024px */
+@media (max-width: 1024px) {
+    header {
+        padding: 8vw 4vw;
+        background-size: cover;
+    }
+
+    header h1 {
+        font-size: 6vw;
+        max-width: 80%;
+    }
+
+    header p {
+        font-size: 2.5vw;
+        max-width: 80%;
+    }
+
+    header button {
+        font-size: 2vw;
+        padding: 2vw 5vw;
+    }
+
+    main section {
+        flex-direction: column;
+        text-align: center;
+        padding: 6vw 4vw;
+    }
+
+    main section img,
+    main section div {
+        max-width: 90%;
+    }
+
+    main section h2 {
+        font-size: 4vw;
+    }
+
+    main section p {
+        font-size: 2vw;
+    }
+}
+
+/* Celulares - até 768px */
+@media (max-width: 768px) {
+    header {
+        padding: 10vw 5vw;
+        background-size: cover;
+        text-align: left;
+    }
+
+    header h1 {
+        font-size: 5vw;
+        max-width: 50%;
+
+    }
+
+    header p {
+        font-size: 2.5vw;
+        max-width: 65%;
+
+    }
+
+    header nav {
+        flex-direction: column;
+        gap: 4vw;
+    }
+
+    header button {
+        width: 100%;
+        font-size: 3.2vw;
+        padding: 3vw;
+    }
+
+    main section {
+        flex-direction: column;
+        padding: 8vw 5vw;
+        gap: 5vw;
+    }
+
+    main section h2 {
+        font-size: 5.5vw;
+        text-align: left;
+    }
+
+    main section p {
+        font-size: 3.2vw;
+        text-align: left;
+    }
+
+    main section img {
+        max-width: 100%;
+    }
+
+
+    main section.column h2 {
+        font-size: 5.4vw;
+        text-align: left;
+    }
+
+
+    main section.column p {
+        font-size: 2.1vw;
+        text-align: left;
+    }
+
+}
+
+/* Telas muito pequenas - até 480px */
+@media (max-width: 480px) {
+    header {
+        padding: 12vw 3vw;
+    }
+
+    header h1 {
+
+        font-size: 6vw;
+        max-width: 50%;
+        text-align: left;
+    }
+
+    header p {
+        font-size: 2.5vw;
+        max-width: 65%;
+        text-align: left;
+    }
+
+    header button {
+        width: 100%;
+        font-size: 3.5vw;
+        padding: 4vw;
+    }
+
+    main section h2 {
+        font-size: 6vw;
+    }
+
+    main section p {
+        font-size: 4vw;
+    }
+
+    main section img {
+        height: auto;
+    }
 }
