@@ -175,3 +175,14 @@ main section:nth-child(even) {
 }
 
 
+/* --------- Footer ------------ */
+footer {
+    background-color: #23272A;
+    padding: 3vw;
+    text-align: center;
+}
+
+footer img {
+    max-width: 100%;
+    height: auto;
+}
