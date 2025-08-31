@@ -75,3 +75,48 @@ header button:last-child:hover {
     background-color: #36393f;
 }
 
+
+/* Estilos para as Seções (Main Content) */
+main section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+    padding: 5vw;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+main section img {
+    flex: 1 1 300px;
+    max-width: 50%;
+    height: auto;
+}
+
+main section div {
+    flex: 1 1 300px;
+    max-width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1vw;
+}
+
+main section h2 {
+    font-size: 2.4vw;
+    font-weight: 800;
+    line-height: 1.2;
+    /* responsivo */
+    margin: 0 0 1vw 0;
+    color: #23272A;
+}
+
+main section p {
+    font-size: 1.1vw;
+    /* responsivo */
+    line-height: 1.4;
+    margin: 0;
+}
+
